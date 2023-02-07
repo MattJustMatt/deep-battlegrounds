@@ -1,0 +1,16 @@
+{
+  "name": "stoner",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "hearthstone battle simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "underscore": "^1.10.2"
+  }
+}
