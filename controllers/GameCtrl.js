@@ -43,7 +43,7 @@ class GameCtrl {
     }
 
     #transitionState(targetState) {
-        if (targetState === this.state) throw new Error(`Attempted to set board state to current state ${ this.targetState }`);
+        if (targetState === this.boardState) throw new Error(`Attempted to set board state to current state ${ this.targetState }`);
 
         if (targetState === BoardStates.PLAYING) {
             // Inform sides of their friends and enemies

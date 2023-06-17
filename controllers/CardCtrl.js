@@ -1,4 +1,4 @@
-import { Card } from '../model/types/Card.js';
+// import { Card } from '../model/types/Card.js';
 
 class CardCtrl {
     constructor() {
